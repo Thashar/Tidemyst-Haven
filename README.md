@@ -30,7 +30,9 @@ No Android? The web version works on iPhone and PC: **[haven.thashar.dev](https:
 
 From version 1.17 the app checks for a new version on start, downloads it and shows
 what is new – tap **Install** (the first time, Android asks you to allow installing
-apps from Tidemyst Haven). Tapping the version number checks right away.
+apps from Tidemyst Haven). The **About the app** section at the bottom of the main
+screen shows the update status and has a **Check for updates** button, plus links
+to the privacy policy and to the app on GitHub.
 
 ## Use
 
@@ -71,7 +73,9 @@ strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości
 3. Otwórz planszę z diamentami w grze – znaczniki pojawią się same.
 
 Od wersji 1.17 aplikacja sama sprawdza przy uruchomieniu, czy jest nowa wersja,
-pobiera ją i pokazuje, co się zmieniło – wystarczy dotknąć **Zainstaluj**.
+pobiera ją i pokazuje, co się zmieniło – wystarczy dotknąć **Zainstaluj**. Sekcja
+**O aplikacji** na dole ekranu głównego pokazuje stan aktualizacji, ma przycisk
+**Sprawdź aktualizacje** oraz linki do polityki prywatności i do aplikacji na GitHubie.
 
 Wszystko liczy się na telefonie, a klatki ekranu nie są nigdzie zapisywane ani
 wysyłane. Jedyne połączenie z internetem to sprawdzenie i pobranie nowej wersji
