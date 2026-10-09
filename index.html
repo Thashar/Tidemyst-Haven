@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tidemyst Haven – Privacy Policy</title>
+<meta name="description" content="Privacy policy of the Tidemyst Haven Android app: what the app does with your screen and data. Polityka prywatności po polsku na tej samej stronie.">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5b5b61;
+    --line: #e2e2de;
+    --accent: #1f6f5c;
+    --accent-soft: #e5f1ed;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141516;
+      --surface: #1d1f20;
+      --text: #ececec;
+      --muted: #a4a6a8;
+      --line: #313436;
+      --accent: #7cc9b2;
+      --accent-soft: #1f2f2a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 16px 64px;
+  }
+  header { margin-bottom: 32px; }
+  .app { color: var(--accent); font-weight: 600; letter-spacing: .02em; margin: 0 0 4px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  .meta { color: var(--muted); margin: 0; font-size: .95rem; }
+  .summary {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 0 0 32px;
+  }
+  .summary p { margin: 0 0 8px; }
+  .summary ul { margin: 0; padding-left: 20px; }
+  h2 {
+    font-size: 1.2rem;
+    margin: 36px 0 8px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  code { font-size: .9em; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: .9rem; }
+  .lang { margin-top: 56px; padding-top: 8px; border-top: 2px solid var(--line); }
+  nav.langs { margin: 0 0 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="app">Tidemyst Haven</p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Android app · effective 9 October 2026</p>
+  </header>
+
+  <nav class="langs"><a href="#pl">Polityka prywatności po polsku ↓</a></nav>
+
+  <section class="summary" aria-label="In short">
+    <p><strong>In short</strong></p>
+    <ul>
+      <li>Everything happens on your phone. The author of the app receives no data and has no access to it.</li>
+      <li>No ads, no analytics, no tracking and no accounts.</li>
+      <li>The screen is captured only to read the diamond board. Screenshots are processed in memory and are not sent anywhere.</li>
+      <li>The only internet connection: on start, the app checks GitHub for a new version and downloads it. No data about you is sent.</li>
+    </ul>
+  </section>
+
+  <h2>Who is responsible for the app</h2>
+  <p>Tidemyst Haven is a free app made by one person (Thashar). The author runs no server and collects no user data. Contact: <a href="https://github.com/Thashar/tidemyst-haven/issues">GitHub Issues</a>.</p>
+
+  <h2>Screen capture</h2>
+  <p>When you start the overlay, Android asks you to allow screen recording. The app uses the picture only to find and read the diamond board. Frames are analysed in the phone's memory and discarded right away. They are not saved and not sent anywhere.</p>
+  <p>The save button on the bar is the only exception: when you tap it, the current frame is saved as an image in <code>Pictures/TidemystHaven</code> on your phone, so you can show a wrong reading to the author yourself. Nothing is saved without that tap.</p>
+
+  <h2>What is stored on the phone</h2>
+  <ul>
+    <li>settings: the chosen options, the position of the bar and the language,</li>
+    <li>an error report, if an error closes the app – it is shown on the next start, and you decide whether to copy it and send it to the author; then it is deleted,</li>
+    <li>the downloaded new version of the app, until it is installed.</li>
+  </ul>
+  <p>This data is kept in the app's private storage. Other apps cannot read it.</p>
+
+  <h2>App updates</h2>
+  <p>On start, the app asks the public GitHub repository <a href="https://github.com/Thashar/tidemyst-haven/releases">Thashar/tidemyst-haven</a> whether there is a newer version. If there is, it downloads the installation file, checks it and offers to install it – you always decide, and Android asks for confirmation as well. The request contains no data about you, only the app version. Like any server, GitHub sees your phone's IP address; see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a>.</p>
+
+  <h2>App permissions</h2>
+  <ul>
+    <li><strong>Display over other apps</strong> – the marks and the bar over the game.</li>
+    <li><strong>Notifications and foreground service</strong> – Android requires a notification while the screen is being read.</li>
+    <li><strong>Screen recording</strong> – reading the board; Android asks every time you start the overlay.</li>
+    <li><strong>Internet</strong> – only checking for and downloading new versions from GitHub.</li>
+    <li><strong>Install apps</strong> – passing a downloaded new version to the Android installer. Android asks for permission the first time and for confirmation every time.</li>
+  </ul>
+
+  <h2>How to delete data</h2>
+  <ul>
+    <li>Uninstall the app or clear its data in Android settings.</li>
+    <li>Saved frames are ordinary images in <code>Pictures/TidemystHaven</code> – delete them in the gallery.</li>
+  </ul>
+
+  <h2>Changes to this policy</h2>
+  <p>If the app starts processing data differently, this page will be updated and the date at the top changed.</p>
+
+  <section class="lang" id="pl" lang="pl">
+    <header>
+      <p class="app">Tidemyst Haven</p>
+      <h1>Polityka prywatności</h1>
+      <p class="meta">Aplikacja na Androida · obowiązuje od 9 października 2026</p>
+    </header>
+
+    <section class="summary" aria-label="W skrócie">
+      <p><strong>W skrócie</strong></p>
+      <ul>
+        <li>Wszystko dzieje się na telefonie. Autor aplikacji nie dostaje żadnych danych i nie ma do nich dostępu.</li>
+        <li>Aplikacja nie ma reklam, analityki, śledzenia ani kont użytkowników.</li>
+        <li>Ekran jest przechwytywany tylko po to, żeby odczytać planszę z diamentami. Klatki są przetwarzane w pamięci i nie są nigdzie wysyłane.</li>
+        <li>Jedyne połączenie z internetem: przy uruchomieniu aplikacja sprawdza na GitHubie, czy jest nowa wersja, i ją pobiera. Nie wysyła przy tym żadnych danych o Tobie.</li>
+      </ul>
+    </section>
+
+    <h2>Kto odpowiada za aplikację</h2>
+    <p>Tidemyst Haven to darmowa aplikacja tworzona przez jedną osobę (Thashar). Autor nie prowadzi serwera i nie zbiera danych użytkowników. Kontakt: <a href="https://github.com/Thashar/tidemyst-haven/issues">zgłoszenia na GitHubie</a>.</p>
+
+    <h2>Przechwytywanie ekranu</h2>
+    <p>Przy uruchomieniu nakładki Android prosi o zgodę na nagrywanie ekranu. Aplikacja używa obrazu tylko do znalezienia i odczytania planszy z diamentami. Klatki są analizowane w pamięci telefonu i od razu odrzucane – nie są zapisywane ani nigdzie wysyłane.</p>
+    <p>Jedyny wyjątek to przycisk zapisu na pasku: po jego dotknięciu bieżąca klatka zapisuje się jako obraz w folderze <code>Obrazy/TidemystHaven</code> na telefonie, żeby można było samemu pokazać autorowi błędny odczyt. Bez tego dotknięcia nic nie jest zapisywane.</p>
+
+    <h2>Co jest zapisywane na telefonie</h2>
+    <ul>
+      <li>ustawienia: wybrane opcje, położenie paska i język,</li>
+      <li>raport o błędzie, gdy błąd zamknie aplikację – pokazuje się przy następnym uruchomieniu, a Ty decydujesz, czy go skopiować i wysłać autorowi; potem jest usuwany,</li>
+      <li>pobrana nowa wersja aplikacji, do czasu jej instalacji.</li>
+    </ul>
+    <p>Dane są w prywatnej pamięci aplikacji. Inne aplikacje nie mają do nich dostępu.</p>
+
+    <h2>Aktualizacje aplikacji</h2>
+    <p>Przy uruchomieniu aplikacja sprawdza w publicznym repozytorium <a href="https://github.com/Thashar/tidemyst-haven/releases">Thashar/tidemyst-haven</a> na GitHubie, czy jest nowsza wersja. Jeśli jest, pobiera plik instalacyjny, sprawdza go i proponuje instalację – zawsze decydujesz Ty, a Android dodatkowo prosi o potwierdzenie. Zapytanie nie zawiera żadnych danych o Tobie, tylko numer wersji aplikacji. GitHub, jak każdy serwer, widzi adres IP telefonu; zasady opisuje <a href="https://docs.github.com/pl/site-policy/privacy-policies/github-general-privacy-statement">oświadczenie o prywatności GitHuba</a>.</p>
+
+    <h2>Uprawnienia aplikacji</h2>
+    <ul>
+      <li><strong>Wyświetlanie nad innymi aplikacjami</strong> – znaczniki i pasek nad grą.</li>
+      <li><strong>Powiadomienia i usługa na pierwszym planie</strong> – Android wymaga powiadomienia, gdy ekran jest odczytywany.</li>
+      <li><strong>Nagrywanie ekranu</strong> – odczyt planszy; Android pyta przy każdym uruchomieniu nakładki.</li>
+      <li><strong>Internet</strong> – tylko sprawdzanie i pobieranie nowych wersji z GitHuba.</li>
+      <li><strong>Instalowanie aplikacji</strong> – przekazanie pobranej nowej wersji do instalatora Androida. Android za pierwszym razem prosi o zgodę, a przy każdej instalacji o potwierdzenie.</li>
+    </ul>
+
+    <h2>Jak usunąć dane</h2>
+    <ul>
+      <li>Odinstaluj aplikację albo wyczyść jej dane w ustawieniach Androida.</li>
+      <li>Zapisane klatki to zwykłe obrazy w folderze <code>Obrazy/TidemystHaven</code> – usuń je w galerii.</li>
+    </ul>
+
+    <h2>Zmiany polityki</h2>
+    <p>Jeśli aplikacja zacznie przetwarzać dane inaczej, ta strona zostanie zaktualizowana, a data na górze strony zmieniona.</p>
+  </section>
+
+  <footer>Tidemyst Haven · Thashar</footer>
+</main>
+</body>
+</html>

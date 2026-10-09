@@ -28,6 +28,10 @@ No Android? The web version works on iPhone and PC: **[haven.thashar.dev](https:
 3. Google Play Protect may warn that the app is unknown – it is not on Google Play,
    so this is expected. Tap **Install anyway**.
 
+From version 1.17 the app checks for a new version on start, downloads it and shows
+what is new – tap **Install** (the first time, Android asks you to allow installing
+apps from Tidemyst Haven). Tapping the version number checks right away.
+
 ## Use
 
 1. Open Tidemyst Haven and grant the permissions: **Overlay** and **Notifications**.
@@ -42,8 +46,10 @@ Drag the top bar up or down so it does not cover the board frame. The app has an
 
 ## Privacy
 
-Everything happens on your phone. The app has **no internet permission**, so it
-cannot send anything anywhere – screen capture is used only to read the board.
+Everything happens on your phone – screen capture is used only to read the board,
+and frames are not saved or sent anywhere. The only internet connection is checking
+GitHub for a new version and downloading it; no data about you is sent.
+Details: **[privacy policy](https://thashar.github.io/tidemyst-haven/)**.
 
 ---
 
@@ -64,8 +70,12 @@ strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości
    **Uruchom nakładkę**, a przy pytaniu o nagrywanie ekranu wybierz **Cały ekran**.
 3. Otwórz planszę z diamentami w grze – znaczniki pojawią się same.
 
-Aplikacja nie ma uprawnienia do internetu – wszystko liczy się na telefonie
-i nic nie jest nigdzie wysyłane.
+Od wersji 1.17 aplikacja sama sprawdza przy uruchomieniu, czy jest nowa wersja,
+pobiera ją i pokazuje, co się zmieniło – wystarczy dotknąć **Zainstaluj**.
+
+Wszystko liczy się na telefonie, a klatki ekranu nie są nigdzie zapisywane ani
+wysyłane. Jedyne połączenie z internetem to sprawdzenie i pobranie nowej wersji
+z GitHuba. Szczegóły: **[polityka prywatności](https://thashar.github.io/tidemyst-haven/#pl)**.
 
 ---
 
