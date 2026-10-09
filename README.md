@@ -15,8 +15,8 @@ on any screen resolution.
   <img src="screenshot.webp" width="300" alt="Tidemyst Haven over the game: a 10×10 board with a green check, red X marks and the counter bar at the top">
 </p>
 
-**[⬇ Download the latest APK](https://github.com/Thashar/tidemyst-haven/releases/latest/download/tidemyst-haven.apk)**
-· [all versions](https://github.com/Thashar/tidemyst-haven/releases)
+**[⬇ Download the latest APK](https://github.com/Thashar/Tidemyst-Haven/releases/latest/download/tidemyst-haven.apk)**
+· [all versions](https://github.com/Thashar/Tidemyst-Haven/releases)
 
 No Android? The web version works on iPhone and PC: **[haven.thashar.dev](https://haven.thashar.dev)**
 (upload a screenshot or tap the board in yourself).
@@ -49,7 +49,7 @@ Drag the top bar up or down so it does not cover the board frame. The app has an
 Everything happens on your phone – screen capture is used only to read the board,
 and frames are not saved or sent anywhere. The only internet connection is checking
 GitHub for a new version and downloading it; no data about you is sent.
-Details: **[privacy policy](https://thashar.github.io/tidemyst-haven/)**.
+Details: **[privacy policy](https://thashar.github.io/Tidemyst-Haven/)**.
 
 ---
 
@@ -60,7 +60,7 @@ i zaznacza: **zielony ptaszek** – tu na 100% jest diament, **czerwony X** – 
 100% nie ma diamentu, **fioletowe kółko** – nic nie jest pewne, a to najlepszy
 strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości.
 
-**[⬇ Pobierz najnowszy APK](https://github.com/Thashar/tidemyst-haven/releases/latest/download/tidemyst-haven.apk)**
+**[⬇ Pobierz najnowszy APK](https://github.com/Thashar/Tidemyst-Haven/releases/latest/download/tidemyst-haven.apk)**
 · wersja przeglądarkowa (iPhone, komputer): **[haven.thashar.dev](https://haven.thashar.dev)**
 
 1. Pobierz APK na telefon i otwórz go (Android 8.0 lub nowszy). Jeśli Android zapyta,
@@ -75,7 +75,7 @@ pobiera ją i pokazuje, co się zmieniło – wystarczy dotknąć **Zainstaluj**
 
 Wszystko liczy się na telefonie, a klatki ekranu nie są nigdzie zapisywane ani
 wysyłane. Jedyne połączenie z internetem to sprawdzenie i pobranie nowej wersji
-z GitHuba. Szczegóły: **[polityka prywatności](https://thashar.github.io/tidemyst-haven/#pl)**.
+z GitHuba. Szczegóły: **[polityka prywatności](https://thashar.github.io/Tidemyst-Haven/#pl)**.
 
 ---
 
