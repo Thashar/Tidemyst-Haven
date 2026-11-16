@@ -23,7 +23,8 @@ In **Chests** mode the app reads the chests (red 5 points, purple 2, common 1) o
 pink, green or blue board and finds the 15-move route from the character that collects
 the most points. It draws the route as a yellow line ending in an arrow, with a check
 mark on the last cell – tap the cells along the line and confirm. The route stays the
-same while you select its cells and changes only when a new chest layout appears.
+same while you select its cells, while the character walks and after the rewards window,
+and changes only when a new chest layout appears.
 
 No Android? The web version (diamond board) works on iPhone and PC: **[haven.thashar.dev](https://haven.thashar.dev)**
 (upload a screenshot or tap the board in yourself).
@@ -73,7 +74,8 @@ strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości
 W trybie **Chests** czyta skrzynie (czerwona 5 pkt, fioletowa 2, zwykła 1) na różowej,
 zielonej albo niebieskiej planszy i rysuje trasę na 15 ruchów od postaci, która zbiera
 najwięcej punktów: żółtą linię zakończoną strzałką, z ptaszkiem na ostatnim polu.
-W trakcie wybierania pól trasa się nie zmienia – nowa pojawi się przy nowym układzie skrzyń.
+Trasa nie zmienia się w trakcie wybierania pól, przejścia postaci ani po okienku z nagrodami –
+nowa pojawi się przy nowym układzie skrzyń.
 
 **[⬇ Pobierz najnowszy APK](https://github.com/Thashar/Tidemyst-Haven/releases/latest/download/tidemyst-haven.apk)**
 · wersja przeglądarkowa (iPhone, komputer): **[haven.thashar.dev](https://haven.thashar.dev)**
