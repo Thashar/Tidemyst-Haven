@@ -23,8 +23,8 @@ In **Chests** mode the app reads the chests (red 5 points, purple 2, common 1) o
 pink, green or blue board, also in jackpot mode, and finds the 15-move route from the character that collects
 the most points. Tap **⟳** on the top bar to read the board: the app draws the route
 as a yellow line ending in an arrow, with a check mark on the last cell – tap the cells
-along the line and confirm. The line stays put until you tap ⟳ again or close the bar,
-so tap ⟳ once more when a new chest layout appears.
+along the line and confirm. The line stays put while you select the cells and disappears
+when the Start button appears; tap ⟳ once more when a new chest layout appears.
 
 No Android? The web version (diamond board) works on iPhone and PC: **[haven.thashar.dev](https://haven.thashar.dev)**
 (upload a screenshot or tap the board in yourself).
@@ -75,8 +75,8 @@ strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości
 W trybie **Chests** czyta skrzynie (czerwona 5 pkt, fioletowa 2, zwykła 1) na różowej,
 zielonej albo niebieskiej planszy, także w trybie jackpot, i rysuje trasę na 15 ruchów od postaci, która zbiera
 najwięcej punktów: żółtą linię zakończoną strzałką, z ptaszkiem na ostatnim polu.
-Planszę czyta po dotknięciu **⟳** na górnym pasku, a linia stoi bez zmian, dopóki nie
-dotkniesz ⟳ jeszcze raz albo nie zamkniesz paska – przy nowym układzie skrzyń dotknij ⟳ ponownie.
+Planszę czyta po dotknięciu **⟳** na górnym pasku, a linia stoi bez zmian w trakcie wybierania
+pól i znika, gdy pojawi się przycisk Start – przy nowym układzie skrzyń dotknij ⟳ ponownie.
 
 **[⬇ Pobierz najnowszy APK](https://github.com/Thashar/Tidemyst-Haven/releases/latest/download/tidemyst-haven.apk)**
 · wersja przeglądarkowa (iPhone, komputer): **[haven.thashar.dev](https://haven.thashar.dev)**
