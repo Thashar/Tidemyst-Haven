@@ -21,10 +21,11 @@ on any screen resolution.
 
 In **Chests** mode the app reads the chests (red 5 points, purple 2, common 1) on a
 pink, green or blue board, also in jackpot mode, and finds the 15-move route from the character that collects
-the most points. Tap **⟳** on the top bar to read the board: the app draws the route
-as a yellow line ending in an arrow, with a check mark on the last cell – tap the cells
-along the line and confirm. The line stays put while you select the cells and disappears
-when the Start button appears; tap ⟳ once more when a new chest layout appears.
+the most points. When a new board to select appears (grey Confirm button), the app reads
+it by itself once and draws the route as a yellow line ending in an arrow, with a check mark
+on the last cell – tap the cells along the line and confirm. The line stays put while you
+select the cells and disappears when the Start button appears; **⟳** on the top bar reads
+the board again at any time.
 
 No Android? The web version (diamond board) works on iPhone and PC: **[haven.thashar.dev](https://haven.thashar.dev)**
 (upload a screenshot or tap the board in yourself).
@@ -48,8 +49,7 @@ to the privacy policy and to the app on GitHub.
 2. Tap **Start overlay**, choose the mode – **Tidemyst Haven** or **Chests** – and when
    asked about screen recording choose **Entire screen** (Android asks every time) –
    this is how the app sees the board.
-3. Open the diamond board in the game – the marks appear on their own. On the chest
-   board tap **⟳** on the top bar.
+3. Open the diamond board or the chest board in the game. The marks appear on their own.
 4. Diamonds: collect the green checks, put X on the red X cells, and when nothing is
    certain, go for the purple circle. Chests: follow the yellow line to the check mark.
 
@@ -75,8 +75,9 @@ strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości
 W trybie **Chests** czyta skrzynie (czerwona 5 pkt, fioletowa 2, zwykła 1) na różowej,
 zielonej albo niebieskiej planszy, także w trybie jackpot, i rysuje trasę na 15 ruchów od postaci, która zbiera
 najwięcej punktów: żółtą linię zakończoną strzałką, z ptaszkiem na ostatnim polu.
-Planszę czyta po dotknięciu **⟳** na górnym pasku, a linia stoi bez zmian w trakcie wybierania
-pól i znika, gdy pojawi się przycisk Start – przy nowym układzie skrzyń dotknij ⟳ ponownie.
+Nową planszę do wybierania pól (szary przycisk Confirm) czyta sama raz, a **⟳** na górnym
+pasku czyta ją ponownie w dowolnej chwili. Linia stoi bez zmian w trakcie wybierania pól
+i znika, gdy pojawi się przycisk Start.
 
 **[⬇ Pobierz najnowszy APK](https://github.com/Thashar/Tidemyst-Haven/releases/latest/download/tidemyst-haven.apk)**
 · wersja przeglądarkowa (iPhone, komputer): **[haven.thashar.dev](https://haven.thashar.dev)**
@@ -87,8 +88,7 @@ pól i znika, gdy pojawi się przycisk Start – przy nowym układzie skrzyń do
 2. W aplikacji nadaj uprawnienia **Nakładka** i **Powiadomienia**, dotknij
    **Uruchom nakładkę**, wybierz tryb (**Tidemyst Haven** albo **Chests**), a przy
    pytaniu o nagrywanie ekranu wybierz **Cały ekran**.
-3. Otwórz w grze planszę z diamentami – znaczniki pojawią się same. Na planszy ze
-   skrzyniami dotknij **⟳** na górnym pasku.
+3. Otwórz w grze planszę z diamentami albo ze skrzyniami – znaczniki pojawią się same.
 
 Od wersji 1.17 aplikacja sama sprawdza przy uruchomieniu, czy jest nowa wersja,
 pobiera ją i pokazuje, co się zmieniło – wystarczy dotknąć **Zainstaluj**. Sekcja
