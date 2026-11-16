@@ -1,7 +1,8 @@
 # Tidemyst Haven
 
-Android overlay for the diamond board minigame. It reads the board from your screen
-in real time and marks it for you:
+Android overlay for two minigames: the diamond board (**Tidemyst Haven** mode) and
+the chest board (**Chests** mode). On the diamond board it reads the board from your
+screen in real time and marks it for you:
 
 - **green check** – a diamond is 100% here,
 - **red X** – 100% no diamond here (safe to mark with X),
@@ -18,7 +19,12 @@ on any screen resolution.
 **[⬇ Download the latest APK](https://github.com/Thashar/Tidemyst-Haven/releases/latest/download/tidemyst-haven.apk)**
 · [all versions](https://github.com/Thashar/Tidemyst-Haven/releases)
 
-No Android? The web version works on iPhone and PC: **[haven.thashar.dev](https://haven.thashar.dev)**
+In **Chests** mode the app reads the chests (red 5 points, purple 3, common 1) on a
+pink, green or blue board and finds the 15-move route from the character that collects
+the most points. It draws the route as a yellow line ending in an arrow, with a check
+mark on the last cell – tap the cells along the line and confirm.
+
+No Android? The web version (diamond board) works on iPhone and PC: **[haven.thashar.dev](https://haven.thashar.dev)**
 (upload a screenshot or tap the board in yourself).
 
 ## Install
@@ -37,11 +43,12 @@ to the privacy policy and to the app on GitHub.
 ## Use
 
 1. Open Tidemyst Haven and grant the permissions: **Overlay** and **Notifications**.
-2. Tap **Start overlay** and when asked about screen recording choose **Entire screen**
-   (Android asks every time) – this is how the app sees the board.
-3. Open the diamond board in the game. The marks appear on their own.
-4. Collect the green checks, put X on the red X cells, and when nothing is certain,
-   go for the purple circle.
+2. Tap **Start overlay**, choose the mode – **Tidemyst Haven** or **Chests** – and when
+   asked about screen recording choose **Entire screen** (Android asks every time) –
+   this is how the app sees the board.
+3. Open the diamond board or the chest board in the game. The marks appear on their own.
+4. Diamonds: collect the green checks, put X on the red X cells, and when nothing is
+   certain, go for the purple circle. Chests: follow the yellow line to the check mark.
 
 Drag the top bar up or down so it does not cover the board frame. The app has an
 **Instructions** button and a PL / EN switch.
@@ -62,6 +69,10 @@ i zaznacza: **zielony ptaszek** – tu na 100% jest diament, **czerwony X** – 
 100% nie ma diamentu, **fioletowe kółko** – nic nie jest pewne, a to najlepszy
 strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości.
 
+W trybie **Chests** czyta skrzynie (czerwona 5 pkt, fioletowa 3, zwykła 1) na różowej,
+zielonej albo niebieskiej planszy i rysuje trasę na 15 ruchów od postaci, która zbiera
+najwięcej punktów: żółtą linię zakończoną strzałką, z ptaszkiem na ostatnim polu.
+
 **[⬇ Pobierz najnowszy APK](https://github.com/Thashar/Tidemyst-Haven/releases/latest/download/tidemyst-haven.apk)**
 · wersja przeglądarkowa (iPhone, komputer): **[haven.thashar.dev](https://haven.thashar.dev)**
 
@@ -69,8 +80,9 @@ strzał. Sama rozpoznaje plansze 8×8, 10×10 i 12×12 w każdej rozdzielczości
    zezwól na instalowanie aplikacji z tego źródła. Ostrzeżenie Play Protect jest
    normalne, bo aplikacji nie ma w Google Play – dotknij **Zainstaluj mimo to**.
 2. W aplikacji nadaj uprawnienia **Nakładka** i **Powiadomienia**, dotknij
-   **Uruchom nakładkę**, a przy pytaniu o nagrywanie ekranu wybierz **Cały ekran**.
-3. Otwórz planszę z diamentami w grze – znaczniki pojawią się same.
+   **Uruchom nakładkę**, wybierz tryb (**Tidemyst Haven** albo **Chests**), a przy
+   pytaniu o nagrywanie ekranu wybierz **Cały ekran**.
+3. Otwórz w grze planszę z diamentami albo ze skrzyniami – znaczniki pojawią się same.
 
 Od wersji 1.17 aplikacja sama sprawdza przy uruchomieniu, czy jest nowa wersja,
 pobiera ją i pokazuje, co się zmieniło – wystarczy dotknąć **Zainstaluj**. Sekcja
